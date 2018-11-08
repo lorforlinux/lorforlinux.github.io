@@ -1,0 +1,31 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif !important;}
+*{
+    margin:0;
+    padding: 0;
+}
+.jumbotron{
+margin-bottom: 0;
+}
+.fa-footer {
+    font-size:40px !important;
+}
+.fa{
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.fa:hover {
+    transform :scale(1.25);
+    color:white;
+}
+.card{
+    transition: all 0.25s ease-in-out;
+    position: relative;
+    background-color:white;
+    color: black;
+}
+.card:hover {
+    transform :scale(1.01);
+    background-color: black;
+    color: white;
+    
+}
