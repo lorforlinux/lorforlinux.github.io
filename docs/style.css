@@ -9,11 +9,11 @@ margin-bottom: 0;
 .fa-footer {
     font-size:40px !important;
 }
-.fa{
+.fab{
     transition: all 0.3s ease-in-out;
     position: relative;
 }
-.fa:hover {
+.fab:hover {
     transform :scale(1.25);
     color:white;
 }
