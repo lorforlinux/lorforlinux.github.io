@@ -3,35 +3,70 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif !important;}
     margin:0;
     padding: 0;
 }
+
+body{
+    background-color:#17a2b8 !important;
+}
+
 .jumbotron{
 margin-bottom: 0;
 }
-.fa-footer {
-    font-size:40px !important;
-}
-.fab{
-    transition: all 0.3s ease-in-out;
-    position: relative;
-}
-.fab:hover {
-    transform :scale(1.25);
-    color:white !important;
-}
 .card{
-    transition: all 0.25s ease-in-out;
+    margin-top: 14px !important;
+    margin-bottom: 14px !important;
+}
+.card-scale{
+    display: block;
+    will-change: font-size;
+    transition: all 0.25s linear;
     position: relative;
     background-color:white;
     color: black;
+    transform: scale(.99);
 }
-.card:hover {
-    transform :scale(1.01);
+.card-scale:hover {
+    transform :scale(1);
     background-color: black;
-    color: white;
+    color: #ffc107;
     
 }
 
 a{
     text-decoration: none;
     outline: none;
+    color: black !important;
+}
+
+/* FOOTER */
+footer{
+    color: black;
+}
+/* gradient */
+/* footer {
+    color: #fff;
+    background: linear-gradient(45deg, #552ee4, #a12ee4, #e42eb6, #e4a42e);
+	background-size: 400%;
+	animation: Gradient 10s ease infinite;
+}
+@keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+} */
+
+/* icons */
+.fa-footer {
+    font-size:40px !important;
+}
+.fab{
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    transform: scale(1);
+}
+.fab:hover {
+    transform :scale(1.25);
     color: black !important;
 }
