@@ -1,2 +1,2 @@
 # Portfolio
-https://modernscientist.ml/. 
+https://deepaklorkhatri007.github.io/
