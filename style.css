@@ -4,10 +4,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif !important;}
     padding: 0;
 }
 
-body{
-    background-color:#17a2b8 !important;
-}
-
 .jumbotron{
 margin-bottom: 0;
 }
@@ -20,15 +16,11 @@ margin-bottom: 0;
     will-change: font-size;
     transition: all 0.25s linear;
     position: relative;
-    background-color:white;
     color: black;
     transform: scale(.99);
 }
 .card-scale:hover {
     transform :scale(1);
-    background-color: #343A40;
-    color: #ffc107;
-    
 }
 
 a{
@@ -56,10 +48,10 @@ footer{
 
 /* icons */
 .fa-footer {
-    font-size:40px !important;
+    font-size:4rem !important;
 }
 .fab{
-    color: black;
+    color: #ffc107;
     margin-top: 25px;
     margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
@@ -68,5 +60,5 @@ footer{
 }
 .fab:hover {
     transform :scale(1.25);
-    color: black !important;
+    /* color: black !important; */
 }
